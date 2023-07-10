@@ -39,7 +39,18 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `dia`.`history` (
   `idhistory` INT NOT NULL AUTO_INCREMENT,
+  `date` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idhistory`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `dia`.`url`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `dia`.`url` (
+  `idurl` INT NOT NULL AUTO_INCREMENT,
+  `url` VARCHAR(200) NOT NULL,
+  PRIMARY KEY (`idurl`))
 ENGINE = InnoDB;
 
 
@@ -55,10 +66,12 @@ CREATE TABLE IF NOT EXISTS `dia`.`product` (
   `supermarket_idsupermarket` INT NOT NULL,
   `category_idcategory` INT NOT NULL,
   `history_idhistory` INT NOT NULL,
+  `url_idurl` INT NOT NULL,
   PRIMARY KEY (`idproduct`),
   INDEX `fk_product_supermarket_idx` (`supermarket_idsupermarket` ASC) VISIBLE,
   INDEX `fk_product_category1_idx` (`category_idcategory` ASC) VISIBLE,
   INDEX `fk_product_history1_idx` (`history_idhistory` ASC) VISIBLE,
+  INDEX `fk_product_url1_idx` (`url_idurl` ASC) VISIBLE,
   CONSTRAINT `fk_product_supermarket`
     FOREIGN KEY (`supermarket_idsupermarket`)
     REFERENCES `dia`.`supermarket` (`idsupermarket`)
@@ -73,22 +86,10 @@ CREATE TABLE IF NOT EXISTS `dia`.`product` (
     FOREIGN KEY (`history_idhistory`)
     REFERENCES `dia`.`history` (`idhistory`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `dia`.`url_product`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dia`.`url_product` (
-  `idurl_product` INT NOT NULL AUTO_INCREMENT,
-  `url` VARCHAR(200) NOT NULL,
-  `product_idproduct` INT NOT NULL,
-  PRIMARY KEY (`idurl_product`),
-  INDEX `fk_url_product_product1_idx` (`product_idproduct` ASC) VISIBLE,
-  CONSTRAINT `fk_url_product_product1`
-    FOREIGN KEY (`product_idproduct`)
-    REFERENCES `dia`.`product` (`idproduct`)
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_product_url1`
+    FOREIGN KEY (`url_idurl`)
+    REFERENCES `dia`.`url` (`idurl`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
