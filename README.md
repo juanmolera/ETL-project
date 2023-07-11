@@ -6,3 +6,5 @@ Obj:
 ---
 ![](images/extract.png)
 
+## Challenge 2: Exploratory Data Analysis (EDA)
+![](images/eda.png)
