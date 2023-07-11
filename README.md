@@ -8,3 +8,6 @@ Obj:
 
 ## Challenge 2: Exploratory Data Analysis (EDA)
 ![](images/eda.png)
+
+## Challenge 3: Data Pipeline
+![](images/pipe.png)
