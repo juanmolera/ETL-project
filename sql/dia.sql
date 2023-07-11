@@ -29,7 +29,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `dia`.`category` (
   `idcategory` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(45) NOT NULL,
+  `name` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`idcategory`))
 ENGINE = InnoDB;
 
@@ -39,7 +39,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `dia`.`history` (
   `idhistory` INT NOT NULL AUTO_INCREMENT,
-  `date` VARCHAR(45) NOT NULL,
+  `date` DATETIME NOT NULL,
   PRIMARY KEY (`idhistory`))
 ENGINE = InnoDB;
 
