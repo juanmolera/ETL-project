@@ -11,3 +11,6 @@ Obj:
 
 ## Challenge 3: Data Pipeline
 ![](images/pipe.png)
+
+## Challenge 4: Load on SQL
+![](images/load.png)
