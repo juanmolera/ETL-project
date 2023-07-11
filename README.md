@@ -7,7 +7,7 @@ Obj:
 ![](images/extract.png)
 
 ## Challenge 2: Exploratory Data Analysis (EDA)
-![](images/eda.png)
+![](images/eda2.png)
 
 ## Challenge 3: Data Pipeline
 ![](images/pipe.png)
