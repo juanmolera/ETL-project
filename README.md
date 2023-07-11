@@ -14,6 +14,6 @@
 ---
 ![](images/pipe.png)
 
-## Challenge 4: Load on SQL
+## Challenge 4: Load
 ---
 ![](images/load.png)
