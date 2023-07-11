@@ -1,5 +1,5 @@
 # Project 1: Extract, Transform and Load (ETL)
-
+![](images/dia2.png)
 Obj:
 
 ## Challenge 1: Extract
