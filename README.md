@@ -1,6 +1,6 @@
 # Project 1: Extract, Transform and Load (ETL)
 
-![logo](images/dia2.png)
+![logo](images/logo.png)
 
 ## Challenge 1: Extract
 
@@ -8,7 +8,7 @@
 
 ## Challenge 2: Exploratory Data Analysis (EDA)
 
-![pandas](images/eda2.png)
+![pandas](images/panda.png)
 
 ## Challenge 3: Data Pipeline
 
@@ -16,7 +16,7 @@
 
 ## Challenge 4: Load
 
-![sql](images/load.png)
+![sql](images/load.png)s
 
 ## Bonus
 
