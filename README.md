@@ -17,3 +17,11 @@
 ## Challenge 4: Load
 
 ![sql](images/load.png)
+
+## Bonus
+
+### Tools
+
+### Drawbacks found and future roadmap
+
+### Special thanks
