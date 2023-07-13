@@ -16,7 +16,7 @@
 
 ## Challenge 4: Load
 
-![sql](images/load.png)s
+![sql](images/load.png)
 
 ## Bonus
 
