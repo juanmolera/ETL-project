@@ -8,7 +8,10 @@
 ![sql](images/load.png)
 --->
 
+This is my first project of the Ironhack data analysis bootcamp and it is focused on the analysis of the evolution of prices in a supermarket. To do this, I have started from a historical record of product data between the dates of XX-XX and I have fed this record with the data of the products that are currently in the supermarket, which I have obtained from scraping their website.
+
 <img align="center" src=images/logo.png  width="50%" height="25%">
+
 
 Distribuidora Internacional de Alimentación, S.A. (DIA) is a Spanish multinational hard-discount supermarket chain founded in 1979. DIA is the largest franchiser company in Spain and the fourth largest food sector franchiser in Europe.
 
