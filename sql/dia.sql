@@ -42,7 +42,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `dia`.`url` (
   `idurl` INT NOT NULL AUTO_INCREMENT,
-  `url` VARCHAR(200) NOT NULL,
+  `url` VARCHAR(300) NOT NULL,
   PRIMARY KEY (`idurl`))
 ENGINE = InnoDB;
 
