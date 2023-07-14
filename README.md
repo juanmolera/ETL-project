@@ -8,12 +8,13 @@
 ![sql](images/load.png)
 --->
 
-This is my first project of the Ironhack data analysis bootcamp and it is focused on the analysis of the evolution of prices in a supermarket. To do this, I have started from a historical record of product data between the dates of and I have fed this record with the data of the products that are currently in the supermarket, which I have obtained from scraping their website. Subsequently, both the initial data and the extracted data have been cleaned to achieve a link between them and to be able to generate a MySQL database. Finally, a brief analysis has been carried out based on different data visualization methods from which a set of conclusions have been obtained.
+This is my first project of the Ironhack data analysis bootcamp and it is focused on the analysis of the evolution of prices in a supermarket. To do this, I have started from a historical record of product data between the dates of and I have fed this record with the data of the products that are currently in the supermarket, which I have obtained from scraping their website. Subsequently, both the initial data and the extracted data have been cleaned to achieve a link between them and to be able to generate a MySQL database. Finally, a brief analysis has been carried out based on different data visualization methods from which a set of conclusions have been obtained.  
 
 <img align="center" src=images/logo.png  width="50%" height="25%">
 
+The supermarket chosen for this project has been DIA. Distribuidora Internacional de Alimentación, S.A. (DIA) is a Spanish multinational hard-discount supermarket chain founded in 1979. DIA is the largest franchiser company in Spain and the fourth largest food sector franchiser in Europe.  
 
-Distribuidora Internacional de Alimentación, S.A. (DIA) is a Spanish multinational hard-discount supermarket chain founded in 1979. DIA is the largest franchiser company in Spain and the fourth largest food sector franchiser in Europe.
+Although in the near future I hope to expand the development to include other supermarkets.
 
 ## Challenge 1: Extract
 
