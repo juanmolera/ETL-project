@@ -12,7 +12,7 @@ This is my first project of the Ironhack data analysis bootcamp and it is focuse
 
 <img align="center" src=images/logo.png  width="50%" height="25%">
 
-The supermarket chosen for this project has been DIA, although in the future I hope to expand the development to include other supermarkets.. Distribuidora Internacional de Alimentación, S.A. (DIA) is a Spanish multinational hard-discount supermarket chain founded in 1979. DIA is the largest franchiser company in Spain and the fourth largest food sector franchiser in Europe.
+The supermarket chosen for this project has been DIA, although in the future I hope to expand the development to include other supermarkets. Distribuidora Internacional de Alimentación, S.A. (DIA) is a Spanish multinational hard-discount supermarket chain founded in 1979. DIA is the largest franchiser company in Spain and the fourth largest food sector franchiser in Europe.
 
 ## Challenge 1: Extract
 
