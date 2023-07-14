@@ -5,7 +5,7 @@
 <img src=images/logo.png  width="50%" height="25%">
 --->
 
-![logo](images/logo.png){ width="50%" height="25%" style="display: block; margin: 0 auto" }
+![logo](images/logo.png){width="50%" height="25%" style="display: block; margin: 0 auto"}
 
 Distribuidora Internacional de Alimentación, S.A. (DIA) is a Spanish multinational hard-discount supermarket chain founded in 1979. DIA is the largest franchiser company in Spain and the fourth largest food sector franchiser in Europe.
 
