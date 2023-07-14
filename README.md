@@ -1,7 +1,11 @@
 # Project 1: Extract, Transform and Load (ETL)
 
 <!---
-![logo](images/logo.png){width="50%" height="25%" style="display: block; margin: 0 auto"}
+![logo](images/logo.png)
+![extraction](images/extract.png)
+![pandas](images/panda.png)
+![pipeline](images/pipe.png)
+![sql](images/load.png)
 --->
 
 <img align="center" src=images/logo.png  width="50%" height="25%">
@@ -10,19 +14,19 @@ Distribuidora Internacional de Alimentación, S.A. (DIA) is a Spanish multinatio
 
 ## Challenge 1: Extract
 
-![extraction](images/extract.png)
+<img align="center" src=images/extract.png  width="50%" height="25%">
 
 ## Challenge 2: Exploratory Data Analysis (EDA)
 
-![pandas](images/panda.png)
+<img align="center" src=images/panda.png  width="50%" height="25%">
 
 ## Challenge 3: Data Pipeline
 
-![pipeline](images/pipe.png)
+<img align="center" src=images/pipe.png  width="50%" height="25%">
 
 ## Challenge 4: Load
 
-![sql](images/load.png)
+<img align="center" src=images/load.png  width="50%" height="25%">
 
 ## Bonus
 
