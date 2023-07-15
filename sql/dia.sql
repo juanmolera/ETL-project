@@ -5,21 +5,21 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema supermarket
+-- Schema supermarkets
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema supermarket
+-- Schema supermarkets
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `supermarket` DEFAULT CHARACTER SET utf8 ;
-USE `supermarket` ;
+CREATE SCHEMA IF NOT EXISTS `supermarkets` DEFAULT CHARACTER SET utf8 ;
+USE `supermarkets` ;
 
 -- -----------------------------------------------------
--- Table `supermarket`.`product`
+-- Table `supermarkets`.`product`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `supermarket`.`product` (
+CREATE TABLE IF NOT EXISTS `supermarkets`.`product` (
   `idproduct` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(200) NOT NULL,
+  `name` VARCHAR(300) NOT NULL,
   `price` FLOAT NULL,
   `reference_price` FLOAT NULL,
   `reference_unit` VARCHAR(45) NULL,
@@ -28,29 +28,19 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `supermarket`.`url`
+-- Table `supermarkets`.`category`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `supermarket`.`url` (
-  `idurl` INT NOT NULL AUTO_INCREMENT,
-  `url` VARCHAR(300) NULL,
-  PRIMARY KEY (`idurl`))
+CREATE TABLE IF NOT EXISTS `supermarkets`.`category` (
+  `idcategory` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(300) NOT NULL,
+  PRIMARY KEY (`idcategory`))
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `supermarket`.`record`
+-- Table `supermarkets`.`supermarket`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `supermarket`.`record` (
-  `idrecord` INT NOT NULL,
-  `date` DATETIME NOT NULL,
-  PRIMARY KEY (`idrecord`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `supermarket`.`supermarket`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `supermarket`.`supermarket` (
+CREATE TABLE IF NOT EXISTS `supermarkets`.`supermarket` (
   `idsupermarket` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`idsupermarket`))
@@ -58,12 +48,22 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `supermarket`.`category`
+-- Table `supermarkets`.`url`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `supermarket`.`category` (
-  `idcategory` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(200) NOT NULL,
-  PRIMARY KEY (`idcategory`))
+CREATE TABLE IF NOT EXISTS `supermarkets`.`url` (
+  `idurl` INT NOT NULL AUTO_INCREMENT,
+  `url` VARCHAR(300) NOT NULL,
+  PRIMARY KEY (`idurl`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `supermarkets`.`record`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `supermarkets`.`record` (
+  `idrecord` INT NOT NULL AUTO_INCREMENT,
+  `date` DATE NOT NULL,
+  PRIMARY KEY (`idrecord`))
 ENGINE = InnoDB;
 
 
