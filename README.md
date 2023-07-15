@@ -33,6 +33,15 @@ The first challenge is to obtain a data set to enrich the starting data. For it,
 | 657687  | [https://www.dia.es/compra-online/despensa/arro...](https://www.dia.es/compra-onl... | dia-es      | arroz_pastas_y_legumbres     | LUENGO alubia cocida frasco 400 gr                | 0.95  | 2.38            | kg             | 2021-06-21  |
 | 678716  | [https://www.dia.es/compra-online/cuidado-perso...](https://www.dia.es/compra-onl... | dia-es      | perfumeria_higiene_salud     | COLORCREM tinte Violín Nº 46 caja 1 ud            | 4.25  | 4.25            | ud             | 2021-06-25  |
 
+| id   | url | supermarket | category                     | name                                                  | price | reference_price | reference_unit | insert_date |
+|------|-----|-------------|------------------------------|-------------------------------------------------------|-------|-----------------|----------------|-------------|
+| 2401 | NaN | dia-es      | azucar_chocolates_y_caramelos | Golosinas sour boom mix FINI BOLSA 165 GR             | 2.25  | 13.64           | kg             | 2023-07-10  |
+| 5110 | NaN | dia-es      | perfumeria_higiene_salud     | Desodorante antitranspirante efecto invisible ...     | 2.55  | 1.28            | NaN            | 2023-07-10  |
+| 4526 | NaN | dia-es      | limpieza_y_hogar             | Estropajo salvauñas limpieza delicada SUPER PA...     | 0.99  | 0.33            | ud             | 2023-07-10  |
+| 815  | NaN | dia-es      | yogures_y_postres            | Yogur desnatado sabor limón VITALINEA 4 unida...     | 1.89  | 3.78            | kg             | 2023-07-10  |
+| 3784 | NaN | dia-es      | agua_refrescos_y_zumos       | Bebida de frutas con leche tropical ZUMOSFERA ...     | 1.25  | 1.04            | l              | 2023-07-10  |
+
+
 ## Challenge 3: Data Pipeline
 
 <img align="center" src=images/pipe.png  width="50%" height="25%">
