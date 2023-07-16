@@ -236,4 +236,4 @@ def scrap_products(scraping_result, urls):
 
     driver.quit() # closes driver
 
-    return total
+    return scraping_result, total

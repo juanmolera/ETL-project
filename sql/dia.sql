@@ -15,35 +15,12 @@ CREATE SCHEMA IF NOT EXISTS `supermarkets` DEFAULT CHARACTER SET utf8 ;
 USE `supermarkets` ;
 
 -- -----------------------------------------------------
--- Table `supermarkets`.`product`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `supermarkets`.`product` (
-  `idproduct` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(300) NOT NULL,
-  `price` FLOAT NULL,
-  `reference_price` FLOAT NULL,
-  `reference_unit` VARCHAR(45) NULL,
-  PRIMARY KEY (`idproduct`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
 -- Table `supermarkets`.`category`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `supermarkets`.`category` (
   `idcategory` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(300) NOT NULL,
   PRIMARY KEY (`idcategory`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `supermarkets`.`supermarket`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `supermarkets`.`supermarket` (
-  `idsupermarket` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(100) NOT NULL,
-  PRIMARY KEY (`idsupermarket`))
 ENGINE = InnoDB;
 
 
@@ -58,12 +35,47 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `supermarkets`.`record`
+-- Table `supermarkets`.`supermarket`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `supermarkets`.`record` (
-  `idrecord` INT NOT NULL AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTS `supermarkets`.`supermarket` (
+  `idsupermarket` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`idsupermarket`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `supermarkets`.`product`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `supermarkets`.`product` (
+  `idproduct` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(300) NOT NULL,
+  `price` FLOAT NULL,
+  `reference_price` FLOAT NULL,
+  `reference_unit` VARCHAR(45) NULL,
   `date` DATE NOT NULL,
-  PRIMARY KEY (`idrecord`))
+  `category_idcategory` INT NOT NULL,
+  `url_idurl` INT NOT NULL,
+  `supermarket_idsupermarket` INT NOT NULL,
+  PRIMARY KEY (`idproduct`),
+  INDEX `fk_product_category_idx` (`category_idcategory` ASC) VISIBLE,
+  INDEX `fk_product_url1_idx` (`url_idurl` ASC) VISIBLE,
+  INDEX `fk_product_supermarket1_idx` (`supermarket_idsupermarket` ASC) VISIBLE,
+  CONSTRAINT `fk_product_category`
+    FOREIGN KEY (`category_idcategory`)
+    REFERENCES `supermarkets`.`category` (`idcategory`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_product_url1`
+    FOREIGN KEY (`url_idurl`)
+    REFERENCES `supermarkets`.`url` (`idurl`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_product_supermarket1`
+    FOREIGN KEY (`supermarket_idsupermarket`)
+    REFERENCES `supermarkets`.`supermarket` (`idsupermarket`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
