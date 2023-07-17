@@ -55,6 +55,12 @@ The id that appears in both tables corresponds to the pandas id and has no relat
 
 ### Tools
 
+- [Selenium](https://www.selenium.dev/)
+- BeautifulSoup
+- Pandas
+- FuzzyWuzzy
+- 
+
 ### Drawbacks and future roadmap
 
 - During Challenge 1: Extract I have encountered the problem of not being able to obtain all the IDs of the products. BeautifulSoup is not able to get the ID of those products that are on sale, even though the HTML tag is the same for all products.
