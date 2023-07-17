@@ -16,7 +16,7 @@ The supermarket chosen for this project has been DIA, although in the future I h
 
 ## Challenge 1: Extract
 
-The first challenge is to obtain a data set to enrich the starting data. For it,
+The first challenge is to obtain a data set to enrich the starting data. For this, I have used web scraping tools to obtain the information of the products that are currently available in the supermarket.
 
 <img align="center" src=images/extract.png  width="50%" height="25%">
 
