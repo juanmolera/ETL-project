@@ -69,7 +69,7 @@ The fourth challenge is to create a MySQL database and feed it with the data obt
 - [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
 - [Pandas](https://pandas.pydata.org/)
 - [FuzzyWuzzy](https://pypi.org/project/fuzzywuzzy/)
-- 
+- [Seaborn](https://seaborn.pydata.org/index.html)
 
 ### Drawbacks and future roadmap
 
