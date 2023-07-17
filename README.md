@@ -15,6 +15,8 @@ The first challenge is to obtain a data set to enrich the starting data. For thi
 
 ## Challenge 2: Exploratory Data Analysis (EDA)
 
+This second challenge consists of carrying out an exploratory analysis of the data. In my case, I have focused on cleaning the data from the initial csv and the data from the csv that I have obtained after scraping, in order to connect both tables.
+
 ![pandas](images/panda.png)
 
 | id      | url                                                                                 | supermarket | category                      | name                                              | price | reference_price | reference_unit | insert_date |
