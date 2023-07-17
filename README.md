@@ -72,6 +72,8 @@ In the first place, we see the case of 'charcuteria_y_quesos', where large varia
 ![charcuteria](images/charcuteria.png)
 ![box_charcuteria](images/box_charcuteria.png)
 
+Secondly, we see the case of 'aceites_salsas_y_especias', where there are no significant variations in the evolution of the average price of the category, but the upward trend that it has already shown since the end of 2021 is clearly identified. In addition, it can be concluded from the last increase in the graph, that the increase in the average price in this category has stabilized a bit since there is not a big jump from the last date of the initial data (2022-08-18) to the date of the scraped data (2023-07-10).
+
 ![aceite](images/aceite.png)
 ![box_aceite](images/box_aceite.png)
 
