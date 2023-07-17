@@ -19,6 +19,8 @@ This second challenge consists of carrying out an exploratory analysis of the da
 
 ![pandas](images/panda.png)
 
+Initial data:
+
 | id      | url                                                                                 | supermarket | category                      | name                                              | price | reference_price | reference_unit | insert_date |
 |---------|-------------------------------------------------------------------------------------|-------------|-------------------------------|---------------------------------------------------|-------|-----------------|----------------|-------------|
 | 978408  | [https://www.dia.es/compra-online/despensa/desa...](https://www.dia.es/compra-onl... | dia-es      | azucar_chocolates_y_caramelos | NESTLE Caja roja bombones caja 200 gr              | 4.95  | 24.75           | kg             | 2021-08-17  |
@@ -26,6 +28,8 @@ This second challenge consists of carrying out an exploratory analysis of the da
 | 2879450 | [https://www.dia.es/compra-online/bebidas/bebid...](https://www.dia.es/compra-onl... | dia-es      | mascotas                      | DIA bebida refrescante aromatizada cítrico zero 0.97 l | 0.97  | 0.65            | l              | 2022-07-18  |
 | 657687  | [https://www.dia.es/compra-online/despensa/arro...](https://www.dia.es/compra-onl... | dia-es      | arroz_pastas_y_legumbres     | LUENGO alubia cocida frasco 400 gr                | 0.95  | 2.38            | kg             | 2021-06-21  |
 | 678716  | [https://www.dia.es/compra-online/cuidado-perso...](https://www.dia.es/compra-onl... | dia-es      | perfumeria_higiene_salud     | COLORCREM tinte Violín Nº 46 caja 1 ud            | 4.25  | 4.25            | ud             | 2021-06-25  |
+
+Scraped data:
 
 | id   | url | supermarket | category                     | name                                                  | price | reference_price | reference_unit | insert_date |
 |------|-----|-------------|------------------------------|-------------------------------------------------------|-------|-----------------|----------------|-------------|
