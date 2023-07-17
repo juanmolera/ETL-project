@@ -56,9 +56,9 @@ The id that appears in both tables corresponds to the pandas id and has no relat
 ### Tools
 
 - [Selenium](https://www.selenium.dev/)
-- BeautifulSoup
-- Pandas
-- FuzzyWuzzy
+- [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+- [Pandas](https://pandas.pydata.org/)
+- [FuzzyWuzzy](https://pypi.org/project/fuzzywuzzy/)
 - 
 
 ### Drawbacks and future roadmap
