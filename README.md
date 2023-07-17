@@ -51,7 +51,7 @@ The third challenge is to create a python pipeline that contains all those piece
 
 ## Challenge 4: Load
 
-The fourth challenge is to create a MySQL database and feed it with the data obtained. For the structure of the EER diagram I have decided to create 4 tables: the 'product' table, which contains the name, the price, the price per unit, the unit and the date on which that product has been registered; the 'category' table, which contains the name of the different categories in which the products are included; the 'supermarket' table, which contains the supermarkets to which the products may belong; and the 'url' table, which contains the direct link to the source from which the information for each of the products has been obtained.
+The fourth challenge is to create a MySQL database and feed it with the data obtained. For the structure of the EER diagram I have decided to create 4 tables: the 'product' table, which contains the name, the price, the price per unit, the unit and the date on which that product has been registered; the 'category' table, which contains the name of the different categories in which the products are included; the 'supermarket' table, which contains the supermarkets to which the products may belong; and the 'url' table, which contains the direct link to the source from which the information for each of the products has been obtained. The diagram presents a star structure, with a central node that is the 'product' table, which is related many to one to the 'supermarket' table, many to one to the 'category' table and one to one to the ' url'.
 
 ![sql](images/load.png)
 
