@@ -46,6 +46,8 @@ The first challenge is to obtain a data set to enrich the starting data. For thi
 
 ### Tools
 
-### Drawbacks found and future roadmap
+### Drawbacks and future roadmap
+
+- During Challenge 1: Extract I have encountered the problem of not being able to obtain all the IDs of the products. BeautifulSoup is not able to get the ID of those products that are on sale, even though the HTML tag is the same for all products.
 
 ### Special thanks
