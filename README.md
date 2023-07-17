@@ -59,6 +59,8 @@ The fourth challenge is to create a MySQL database and feed it with the data obt
 
 ![history](images/history.png)
 
+![categories](images/categories.png)
+
 ## Bonus
 
 ### Tools
