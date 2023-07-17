@@ -67,6 +67,9 @@ To check what this stability is due to, the variation in the average price by ca
 
 To see in detail what these rises and falls in the average prices of the aforementioned categories are due to, the historical evolution of the average price for each of these categories and the box plots of the initial data and the scraped data are presented below to identify outliers values.
 
+![charcuteria](images/charcuteria.png)
+![box_charcuteria](images/box_charcuteria.png)
+
 ## Bonus
 
 ### Tools
