@@ -67,6 +67,8 @@ To check what this stability is due to, the variation in the average price by ca
 
 To see in detail what these rises and falls in the average prices of the aforementioned categories are due to, the historical evolution of the average price of some of these categories and the box plots of the initial data and the scraped data are presented below to identify outliers values.
 
+In the first place, we see the case of 'charcuteria_y_quesos', where large variations in the average price can be seen over short periods of time. Through its boxplot, it can be seen that there are numerous high price outliers, which explains the strong fluctuations in the average price chart. When one of these high-value products enters or leaves the supermarket stock, it alters the total average price of the category. It has been possible to verify that these high-priced products correspond to high-quality hams.
+
 ![charcuteria](images/charcuteria.png)
 ![box_charcuteria](images/box_charcuteria.png)
 
