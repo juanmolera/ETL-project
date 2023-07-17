@@ -15,7 +15,7 @@ The first challenge is to obtain a data set to enrich the starting data. For thi
 
 ## Challenge 2: Exploratory Data Analysis (EDA)
 
-This second challenge consists of carrying out an exploratory analysis of the data. In my case, I have focused on cleaning the data from the initial csv and the data from the csv that I have obtained after scraping, in order to connect both tables.
+This second challenge consists of carrying out an exploratory analysis of the data. In my case, I have focused on cleaning the data from the initial csv and the data from the csv that I have obtained after scraping, in order to connect both tables. For which, first of all, I do a little cleanup of both csvs in which I remove the 'description' column because all its values are null, I remove the 'product_id' column because I haven't been able to get all the IDs from the scraping, I remove the 'subcategory' column because it is not included in the initial csv, I match the format of the data insertion dates, I modify the units by substituting their name for their acronym (kilo: kg) and I add the URL column to the scraped csv empty since it depends on the product IDs.
 
 ![pandas](images/panda.png)
 
