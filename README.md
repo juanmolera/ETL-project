@@ -41,7 +41,7 @@ Scraped data:
 | 815  | NaN | dia-es      | yogures_y_postres            | Yogur desnatado sabor limón VITALINEA 4 unida...     | 1.89  | 3.78            | kg             | 2023-07-10  |
 | 3784 | NaN | dia-es      | agua_refrescos_y_zumos       | Bebida de frutas con leche tropical ZUMOSFERA ...     | 1.25  | 1.04            | l              | 2023-07-10  |
 
-The id that appears in both tables corresponds to the pandas id and has no relation to the product id
+The id that appears in both tables corresponds to the pandas id and has no relation to the product id.
 
 ## Challenge 3: Data Pipeline
 
@@ -52,6 +52,8 @@ The third challenge is to create a python pipeline that contains all those piece
 ## Challenge 4: Load
 
 ![sql](images/load.png)
+
+## Visualization and conclusions
 
 ## Bonus
 
