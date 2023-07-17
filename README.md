@@ -45,7 +45,7 @@ The id that appears in both tables corresponds to the pandas id and has no relat
 
 ## Challenge 3: Data Pipeline
 
-The third challenge is to create a python pipeline that contains all those pieces of code that are used repeatedly in the project and that are likely to be converted into a function.
+The third challenge is to create a python pipeline that contains all those pieces of code that are used repeatedly in the project and that are likely to be converted into a function. All the code used in challenge 1 is converted into two different functions, one to extract the supermarket URLs and another to parse the information from the HTML and generate a dictionary with the extracted information. The challenge 2 code is capable of being converted into different functions, but I think it still needs to be improved to make it less specific and to be able to generate general functions from it.
 
 ![pipeline](images/pipe.png)
 
@@ -72,4 +72,4 @@ The third challenge is to create a python pipeline that contains all those piece
 ### Special thanks
 
 ### Copyright
-All the images that appear in this document (with the exception of the graphics that I have generated for the conclusions section) have been created with DALL·E 2.
+All the images that appear in this document (with the exception of the graphics that I have generated for the conclusions section) have been created with [DALL·E 2](https://openai.com/dall-e-2).
