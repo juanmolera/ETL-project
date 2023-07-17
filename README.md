@@ -77,7 +77,7 @@ Secondly, we see the case of 'aceites_salsas_y_especias', where there are no sig
 ![aceite](images/aceite.png)
 ![box_aceite](images/box_aceite.png)
 
-Thirdly, we see the case of 'frozen', where there are no significant variations in the evolution of the average price of the category, and unlike what happened in the previous case, there is no clear upward trend either. However, from the last record of the initial data to the record of the scraped data, there has been an increase of 0.6€ in the average price of this category.
+Thirdly, we see the case of 'congelados', where there are no significant variations in the evolution of the average price of the category, and unlike what happened in the previous case, there is no clear upward trend either. However, from the last record of the initial data to the record of the scraped data, there has been an increase of 0.6€ in the average price of this category.
 
 ![congelados](images/congelados.png)
 ![box_congelados](images/box_congelados.png)
@@ -92,11 +92,14 @@ Thirdly, we see the case of 'frozen', where there are no significant variations 
 - [SQLAlchemy](https://www.sqlalchemy.org/)
 - [Seaborn](https://seaborn.pydata.org/index.html)
 
+<!---
 ### Drawbacks and future roadmap
 
 - During Challenge 1: Extract I have encountered the problem of not being able to obtain all the IDs of the products. BeautifulSoup is not able to get the ID of those products that are on sale, even though the HTML tag is the same for all products.
+-->
 
 ### Special thanks
+I would like to thank my teachers, [Ana](https://www.linkedin.com/in/ana-garcia-garcia-090a5058/), [Jeancha](https://www.linkedin.com/in/jeancharlesyamada/) and [Yona](https://www.linkedin.com/in/yonatan-rodriguez/), who guide me every day to enter the world of data and all my classmates who are incredible people.
 
 ### Copyright
 All the images that appear in this document (with the exception of the graphics that I have generated for the conclusions section) have been created with [DALL·E 2](https://openai.com/dall-e-2).
