@@ -61,9 +61,11 @@ To finish with the project, a set of graphs are presented below that allow analy
 
 ![history](images/history.png)
 
-To check what this stability is due to, the variation in the average price by category between the initial data and the scraped data is represented. It can be seen that most categories present an upward trend, which despite this, does not have an impact on the total average price of the supermarket. The most obvious cases of this upward trend are the categories of 'cervezas_vinos_y_bebidas_con_alcohol', 'aceites_salsas_y_especias', 'mascotas' and 'congelados', where there was an increase of almost €1 in the average price of the category. The case of 'charcuteria_y_quesos' is striking, in which there is a decrease in the average price of almost €3.
+To check what this stability is due to, the variation in the average price by category between the initial data and the scraped data is represented. It can be seen that most categories present an upward trend, which despite this, does not have an impact on the total average price of the supermarket. The most obvious cases of this upward trend are the categories of 'cervezas_vinos_y_bebidas_con_alcohol', 'aceites_salsas_y_especias', 'mascotas' and 'congelados', where there was an increase of almost 1€ in the average price of the category. The case of 'charcuteria_y_quesos' is striking, in which there is a decrease in the average price of almost 3€.
 
 ![categories](images/categories.png)
+
+To see in detail what these rises and falls in the average prices of the aforementioned categories are due to, the historical evolution of the average price for each of these categories and the box plots of the initial data and the scraped data are presented below to identify outliers values.
 
 ## Bonus
 
