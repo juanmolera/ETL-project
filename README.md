@@ -57,7 +57,7 @@ The fourth challenge is to create a MySQL database and feed it with the data obt
 
 ## Visualization and conclusions
 
-To finish with the project, a set of graphs are presented below that allow analyzing the results obtained. I have decided to focus my analysis on the comparison of prices between categories between the initial data (2021-2022) and the scraped data (2023).
+To finish with the project, a set of graphs are presented below that allow analyzing the results obtained. I have decided to focus my analysis on the comparison of prices between categories between the initial data (2021-2022) and the scraped data (2023). First of all, to achieve a global vision, a graph is presented that shows the evolution of the average supermarket price during all the registered years. The mean for the initial data and the mean for the scraped data have been painted on this graph. As you can see, the behavior of the graph is quite stable, which is also demonstrated by the value of the averages, with the average of the initial data being 3.3995017183828096 and the average of the scraped data being 3.3987446878065395, which indicates a very slight price reduction. average by 0.022%.
 
 ![history](images/history.png)
 
