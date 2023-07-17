@@ -70,3 +70,6 @@ The third challenge is to create a python pipeline that contains all those piece
 - During Challenge 1: Extract I have encountered the problem of not being able to obtain all the IDs of the products. BeautifulSoup is not able to get the ID of those products that are on sale, even though the HTML tag is the same for all products.
 
 ### Special thanks
+
+### Copyright
+All the images that appear in this document (with the exception of the graphics that I have generated for the conclusions section) have been created with DALL·E 2.
