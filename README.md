@@ -51,6 +51,8 @@ The third challenge is to create a python pipeline that contains all those piece
 
 ## Challenge 4: Load
 
+The fourth challenge is to create a MySQL database and feed it with the data obtained.
+
 ![sql](images/load.png)
 
 ## Visualization and conclusions
