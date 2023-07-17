@@ -19,7 +19,7 @@ This second challenge consists of carrying out an exploratory analysis of the da
 
 ![pandas](images/panda.png)
 
-After this, comes the most complicated part of the project, which consists of finding a relationship between the initial data and the scraped data. After analyzing the information contained in each column, I decide to join the data through the 'category' column. The categories used in both data sets are similar but have different names.
+After this, comes the most complicated part of the project, which consists of finding a relationship between the initial data and the scraped data. After analyzing the information contained in each column, I decide to join the data through the 'category' column. The categories used in both data sets are similar, but have different names. To find the equivalence between the names of the categories I use FuzzyWuzzy. After many unsuccessful attempts, I believe that the best way to apply FuzzyWuzzy is to make a 1:1 relationship between keywords in each category. That is why, I clean both columns to be left with only one keyword that describes the category, I apply FuzzyWuzzy between these words and I am left with the result that reaches the highest ratio value
 
 Initial data:
 
