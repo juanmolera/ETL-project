@@ -77,6 +77,8 @@ Secondly, we see the case of 'aceites_salsas_y_especias', where there are no sig
 ![aceite](images/aceite.png)
 ![box_aceite](images/box_aceite.png)
 
+Thirdly, we see the case of 'frozen', where there are no significant variations in the evolution of the average price of the category, and unlike what happened in the previous case, there is no clear upward trend either. However, from the last record of the initial data to the record of the scraped data, there has been an increase of 0.6€ in the average price of this category.
+
 ![congelados](images/congelados.png)
 ![box_congelados](images/box_congelados.png)
 ## Bonus
