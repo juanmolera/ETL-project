@@ -57,6 +57,8 @@ The fourth challenge is to create a MySQL database and feed it with the data obt
 
 ## Visualization and conclusions
 
+To finish with the project, a set of graphs are presented below that allow analyzing the results obtained. I have decided to focus my analysis on the comparison of prices between categories between the initial data (2021-2022) and the scraped data (2023).
+
 ![history](images/history.png)
 
 ![categories](images/categories.png)
