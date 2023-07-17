@@ -45,6 +45,8 @@ The id that appears in both tables corresponds to the pandas id and has no relat
 
 ## Challenge 3: Data Pipeline
 
+The third challenge is to create a python pipeline that contains all those pieces of code that are used repeatedly in the project and that are likely to be converted into a function.
+
 ![pipeline](images/pipe.png)
 
 ## Challenge 4: Load
