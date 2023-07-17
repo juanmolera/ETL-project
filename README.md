@@ -19,6 +19,8 @@ This second challenge consists of carrying out an exploratory analysis of the da
 
 ![pandas](images/panda.png)
 
+After this, comes the most complicated part of the project, which consists of finding a relationship between the initial data and the scraped data. After analyzing the information contained in each column, I decide to join the data through the 'category' column. The categories used in both data sets are similar but have different names.
+
 Initial data:
 
 | id      | url                                                                                 | supermarket | category                      | name                                              | price | reference_price | reference_unit | insert_date |
@@ -39,7 +41,7 @@ Scraped data:
 | 815  | NaN | dia-es      | yogures_y_postres            | Yogur desnatado sabor limón VITALINEA 4 unida...     | 1.89  | 3.78            | kg             | 2023-07-10  |
 | 3784 | NaN | dia-es      | agua_refrescos_y_zumos       | Bebida de frutas con leche tropical ZUMOSFERA ...     | 1.25  | 1.04            | l              | 2023-07-10  |
 
-* The id that appears in both tables corresponds to the pandas id and has no relation to the product id
+The id that appears in both tables corresponds to the pandas id and has no relation to the product id
 
 ## Challenge 3: Data Pipeline
 
