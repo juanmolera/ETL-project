@@ -61,6 +61,8 @@ To finish with the project, a set of graphs are presented below that allow analy
 
 ![history](images/history.png)
 
+To check what this stability is due to, the variation in the average price by category between the initial data and the scraped data is analyzed.
+
 ![categories](images/categories.png)
 
 ## Bonus
